@@ -1,0 +1,7 @@
+exports[`Post snapshot It should render posts component and take a snapshot 1`] = `
+<div>
+  <h1>
+    Post component
+  </h1>
+</div>
+`;
