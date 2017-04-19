@@ -1,7 +1,39 @@
 exports[`Post snapshot It should render posts component and take a snapshot 1`] = `
-<div>
-  <h1>
-    Post component
-  </h1>
-</div>
+<section
+  className="section">
+  <div
+    className="container">
+    <div
+      className="columns">
+      <div
+        className="column is-12">
+        <div
+          className="card">
+          <header
+            className="card-header">
+            <p
+              className="card-header-title">
+              No Post Available
+            </p>
+            <a
+              className="card-header-icon">
+              <span
+                className="icon">
+                <i
+                  className="fa fa-angle-down" />
+              </span>
+            </a>
+          </header>
+          <div
+            className="card-content">
+            <div
+              className="content">
+              If you are the admin, add posts.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 `;
