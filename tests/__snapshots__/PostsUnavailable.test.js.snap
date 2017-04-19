@@ -1,0 +1,39 @@
+exports[`PostsUnavailabe Snapshot it render PostsUnavailable component and take snapshot 1`] = `
+<section
+  className="section">
+  <div
+    className="container">
+    <div
+      className="columns">
+      <div
+        className="column is-12">
+        <div
+          className="card">
+          <header
+            className="card-header">
+            <p
+              className="card-header-title">
+              No Post Available
+            </p>
+            <a
+              className="card-header-icon">
+              <span
+                className="icon">
+                <i
+                  className="fa fa-angle-down" />
+              </span>
+            </a>
+          </header>
+          <div
+            className="card-content">
+            <div
+              className="content">
+              If you are the admin, add posts.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
