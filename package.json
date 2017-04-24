@@ -5,8 +5,10 @@
   "dependencies": {
     "axios": "^0.16.1",
     "font-awesome": "^4.7.0",
+    "history": "^4.6.1",
     "react": "^15.5.3",
     "react-dom": "^15.5.3",
+    "react-markdown": "^2.5.0",
     "react-markdown-editor-hybrid": "^0.2.1",
     "react-router-dom": "^4.0.0",
     "react-scripts": "^0.9.5"
