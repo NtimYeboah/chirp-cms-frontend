@@ -3,9 +3,11 @@
  */
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 
 import Posts from './../src/components/Posts';
+import CreatePostButton from './../src/components/CreatePostButton';
+import PostsUnavailable from './../src/components/PostsUnavailable';
 
 describe('Post snapshot', () => {
     test('It should render posts component and take a snapshot', () => {
@@ -17,10 +19,42 @@ describe('Post snapshot', () => {
 });
 
 describe('Post rendered output', () => {
-    test('It should render Post component text', () => {
-        const posts = shallow(<Posts />);
 
-        expect(posts.find('h1').text()).toEqual('Post component');
+    describe('Post component rendered with no state', () => {
+        let mountedPostsComponent;
+
+        const posts = () => {
+            if (! mountedPostsComponent) {
+                mountedPostsComponent = mount(<Posts />);
+            }
+
+            return mountedPostsComponent;
+        };
+
+        beforeEach(() => {
+            mountedPostsComponent = undefined;
+        });
+
+        test('it always renders section as the enclosing tag', () => {
+            const section = posts().find('section');
+
+            expect(section.length).toBe(1);
+        });
+
+        test('it should have an initial state of posts being undefined', () => {
+            expect(posts().state().posts).not.toBeDefined();
+        });
+
+        test('it renders PostsUnavailable component', () => {
+            expect(posts().find(PostsUnavailable).length).toBe(1);
+        });
+
+        test('PostsUnavailable component does not receive any prop', () => {
+            const postsUnavailable = posts().find(PostsUnavailable);
+
+            expect(Object.keys(postsUnavailable.props()).length).toBe(0);
+        });
     });
+
 });
 
