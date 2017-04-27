@@ -5,16 +5,32 @@ const axios = require('axios');
 
 class Api {
     static save(url, data) {
-        return axios.post(url, data)
-            .then(res => res)
-            .catch(err => err);
+        return axios.request({
+            url: url,
+            method: 'post',
+            data: data
+        })
+        .then(res => res)
+        .catch(err => err);
     }
 
     static getAll(url) {
-        return axios.get(url)
+        return axios.request({
+                url: url,
+                method: 'get'
+            })
             .then(res => res)
             .catch(err => err);
     }
+
+    static get(url) {
+        return axios.request({
+            url: url,
+            method: 'get'
+        })
+        .then(res => res)
+        .catch(err => err);
+    }
 }
 
-module.exports = Api;
+export default Api;
