@@ -1,0 +1,1045 @@
+exports[`CreatePostForm snapshot it should render CreatePostForm component and take a snapshot 1`] = `
+<section
+  className="section">
+  <div
+    className="container">
+    <div
+      className="columns">
+      <div
+        className="column is-10 is-offset-1">
+        <form
+          onSubmit={[Function]}>
+          <div
+            className="field">
+            <div
+              className="field-body">
+              <div
+                className="field">
+                <label
+                  className="label">
+                  Title
+                </label>
+                <div
+                  className="control">
+                  <input
+                    className="input"
+                    onChange={[Function]}
+                    placeholder="Title"
+                    type="text"
+                    value="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="field"
+            style={
+              Object {
+                "marginTop": "5%",
+              }
+            }>
+            <div
+              className="field-body">
+              <div
+                className="field">
+                <label
+                  className="label">
+                  Content
+                </label>
+                <div>
+                  <div
+                    style={
+                      Object {
+                        "marginBottom": "4px",
+                        "marginLeft": "-4px",
+                      }
+                    }>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-bold" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-italic" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-header" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-list" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-list-ol" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-quote-right" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-code" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-link" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-file-image-o" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-youtube" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-eye" />
+                      <span
+                        style={
+                          Object {
+                            "marginLeft": "6px",
+                          }
+                        }>
+                        Preview
+                      </span>
+                    </button>
+                  </div>
+                  <div>
+                    <textarea
+                      onChange={[Function]}
+                      placeholder="Use Markdown or HTML for formatting..."
+                      style={
+                        Object {
+                          "border": "1px solid #cccccc",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "inset 0 1px 2px rgba(10, 10, 10, 0.1)",
+                          "color": "#363636",
+                          "cursor": "auto",
+                          "fontFamily": "BlinkMacSystemFont, -apple-system, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif",
+                          "fontSize": 16,
+                          "height": "500px",
+                          "letterSpacing": "normal",
+                          "outline": "0",
+                          "padding": "0.625em",
+                          "resize": "vertical",
+                          "textAlign": "start",
+                          "textIndent": 0,
+                          "textShadow": "none",
+                          "textTransform": "none",
+                          "userSelect": "text",
+                          "whiteSpace": "pre-wrap",
+                          "width": "100%",
+                          "wordSpacing": "normal",
+                          "wordWrap": "break-word",
+                        }
+                      }
+                      value="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="field">
+            <div
+              className="field-body">
+              <div
+                className="field">
+                <button
+                  className="button is-primary"
+                  style={
+                    Object {
+                      "float": "right",
+                    }
+                  }
+                  type="submit">
+                  Save Post
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`undefined 1`] = `
+<section
+  className="section">
+  <div
+    className="container">
+    <div
+      className="columns">
+      <div
+        className="column is-10 is-offset-1">
+        <form
+          onSubmit={[Function]}>
+          <div
+            className="field">
+            <div
+              className="field-body">
+              <div
+                className="field">
+                <label
+                  className="label">
+                  Title
+                </label>
+                <div
+                  className="control">
+                  <input
+                    className="input"
+                    onChange={[Function]}
+                    placeholder="Title"
+                    type="text"
+                    value="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="field"
+            style={
+              Object {
+                "marginTop": "5%",
+              }
+            }>
+            <div
+              className="field-body">
+              <div
+                className="field">
+                <label
+                  className="label">
+                  Content
+                </label>
+                <div>
+                  <div
+                    style={
+                      Object {
+                        "marginBottom": "4px",
+                        "marginLeft": "-4px",
+                      }
+                    }>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-bold" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-italic" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-header" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-list" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-list-ol" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-quote-right" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-code" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-link" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-file-image-o" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-youtube" />
+                    </button>
+                    <button
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "border": "1px solid transparent",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "none",
+                          "color": "#363636",
+                          "cursor": "pointer",
+                          "display": "inline-flex",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "height": "2.25em",
+                          "justifyContent": "center",
+                          "lineHeight": 1.5,
+                          "margin": "0px 2px",
+                          "marginLeft": "4px",
+                          "outline": "0",
+                          "padding": "4px 8px",
+                          "paddingBottom": "calc(0.375em - 1px)",
+                          "paddingLeft": "0.75em",
+                          "paddingRight": "0.75em",
+                          "paddingTop": "calc(0.375em - 1px)",
+                          "textAlign": "center",
+                          "transition": "none 86ms ease-out",
+                          "userSelect": "none",
+                          "verticalAlign": "top",
+                          "whiteSpace": "nowrap",
+                        }
+                      }>
+                      <i
+                        className="fa fa-eye" />
+                      <span
+                        style={
+                          Object {
+                            "marginLeft": "6px",
+                          }
+                        }>
+                        Preview
+                      </span>
+                    </button>
+                  </div>
+                  <div>
+                    <textarea
+                      onChange={[Function]}
+                      placeholder="Use Markdown or HTML for formatting..."
+                      style={
+                        Object {
+                          "border": "1px solid #cccccc",
+                          "borderColor": "#dbdbdb",
+                          "borderRadius": 3,
+                          "boxShadow": "inset 0 1px 2px rgba(10, 10, 10, 0.1)",
+                          "color": "#363636",
+                          "cursor": "auto",
+                          "fontFamily": "BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif",
+                          "fontSize": 16,
+                          "height": "500px",
+                          "letterSpacing": "normal",
+                          "outline": "0",
+                          "padding": "0.625em",
+                          "resize": "vertical",
+                          "textAlign": "start",
+                          "textIndent": 0,
+                          "textShadow": "none",
+                          "textTransform": "none",
+                          "userSelect": "text",
+                          "whiteSpace": "pre-wrap",
+                          "width": "100%",
+                          "wordSpacing": "normal",
+                          "wordWrap": "break-word",
+                        }
+                      }
+                      value="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="field">
+            <div
+              className="field-body">
+              <div
+                className="field">
+                <button
+                  className="button is-primary"
+                  style={
+                    Object {
+                      "float": "right",
+                    }
+                  }
+                  type="submit">
+                  Save Post
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+`;

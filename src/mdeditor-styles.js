@@ -49,8 +49,6 @@ buttonStyle = {
     fontWeight: 400
 };
 
-let styles = { textAreaStyle, buttonStyle };
-
-export default styles;
+export default { textAreaStyle, buttonStyle };
 
 
