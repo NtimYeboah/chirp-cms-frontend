@@ -1,0 +1,22 @@
+exports[`CreatePostButton test it should render component and take snapshot 1`] = `
+<div
+  className="columns">
+  <div
+    className="column is-12">
+    <nav>
+      <div
+        className="container block">
+        <div
+          className="level-right">
+          <a
+            className="button is-primary"
+            href="/posts/create"
+            onClick={[Function]}>
+            Add A Post
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+`;
