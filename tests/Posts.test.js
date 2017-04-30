@@ -54,7 +54,31 @@ describe('Post rendered output', () => {
 
             expect(Object.keys(postsUnavailable.props()).length).toBe(0);
         });
-    });
 
+
+        test('it should set the state of posts', () => {
+            const posts = shallow(<Posts />);
+
+            const postsBlog = [
+                {
+                    id: 1234,
+                    title: 'Lorem ipsum',
+                    content: 'Dolor sit amet',
+                    slug: 'lorem-ipsum'
+                },
+                {
+                    id: 1234566,
+                    title: 'A title',
+                    content: 'The content of post',
+                    slug: 'a-title'
+                }
+            ];
+
+            posts.setState({ posts: postsBlog });
+
+            expect(posts.state()).toBeDefined();
+            expect(posts.state().posts.length).toEqual(2);
+        });
+    });
 });
 
