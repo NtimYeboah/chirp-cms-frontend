@@ -12,7 +12,11 @@ class Post {
 
     static getAll() {
         return Api.getAll('http://localhost:9000/api/posts')
-            .then(res => res.data.posts)
+            .then(res => {
+                if (res.status === 200) {
+                    return res.data.posts
+                }
+            })
             .catch(err => err);
     }
 
