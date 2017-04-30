@@ -1,5 +1,10 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+div.post-box {
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+textarea::selection {
+    background: #00d1b2;
+    color: #fff;
 }
