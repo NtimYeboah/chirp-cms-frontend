@@ -2,6 +2,8 @@
  * Created by ntimobedyeboah on 4/21/17.
  */
 import React, { Component } from 'react';
+import ReactMarkdown from 'react-markdown';
+
 import Post from './../services/post';
 
 class PostDetails extends Component {
@@ -12,7 +14,7 @@ class PostDetails extends Component {
     }
 
     componentDidMount() {
-        Post.getOne(this.props.match.params.cuid)
+        Post.getOne(this.props.match.params.slug)
             .then(post => {
                 this.setState({ post });
             })
@@ -33,7 +35,7 @@ class PostDetails extends Component {
                         <div className="columns">
                             <div className="column is-8 is-offset-2">
                                 <h3 className="has-text-centered">{ post.title }</h3>
-                                <p>{ post.content }</p>
+                                <ReactMarkdown source={ post.content } />
                             </div>
                         </div>
                     </div>
