@@ -1,0 +1,25 @@
+exports[`UserProfile snapshot it should render component and take snapshot 1`] = `
+<div
+  className="media">
+  <div
+    className="media-left">
+    <figure
+      className="image is-48x48">
+      <img
+        alt=""
+        src="http://placehold.it/96x96" />
+    </figure>
+  </div>
+  <div
+    className="media-content">
+    <p
+      className="subtitle is-6">
+      John Smith 
+      <br />
+      <small>
+        1 Jan 2016
+      </small>
+    </p>
+  </div>
+</div>
+`;
