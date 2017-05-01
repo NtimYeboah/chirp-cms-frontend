@@ -14,12 +14,15 @@ describe('PostsUnavailabe Snapshot', () => {
         let tree = component.toJSON();
         expect(tree).toMatchSnapshot();
     });
+});
 
+
+describe('PostUnavailable rendered output', () => {
     test('it should display message to user', () => {
         const component = shallow(<PostsUnavailable />);
 
         expect(component.find('p.card-header-title').text()).toEqual('No Post Available');
         expect(component.find('div.content').text()).toEqual('If you are the admin, add posts.');
-
-    })
+    });
 });
+

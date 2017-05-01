@@ -48,5 +48,5 @@ describe('PostItem rendered output', () => {
         expect(postItem().props().children[0].props.details.title).toBe('Lorem ipsum');
         expect(postItem().props().children[0].props.details.content).toBe('Dolor sit amet');
         expect(postItem().props().children[0].props.details.slug).toBe('lorem-ipsum');
-    })
+    });
 });
