@@ -45,4 +45,19 @@ describe('CreatePostForm rendered output', () => {
         expect(createPostForm().state().title).toBe('');
         expect(createPostForm().state().content).toBe('');
     });
+
+    test('it should set the state of content and title when submitted', () => {
+        const input = createPostForm().find('input');
+        input.node.value = 'Lorem ipsum';
+        input.simulate('change', input);
+
+        const markdownEditor = createPostForm().find('textarea');
+        markdownEditor.node.value = 'Dolor sit amet';
+        markdownEditor.simulate('change', markdownEditor);
+
+        createPostForm().find('button#submit').simulate('click');
+
+        expect(createPostForm().state().title).toEqual('Lorem ipsum');
+        expect(createPostForm().state().content).toEqual('Dolor sit amet');
+    });
 });

@@ -34,8 +34,10 @@ class CreatePostForm extends Component {
     handleSubmit(event) {
         event.preventDefault();
         Post.save(this.state).then(post => {
+            //todo: Redirect to post details view
 
-        }).catch(err => {
+        })
+        .catch(err => {
             throw new Error(err);
         });
     }
@@ -66,14 +68,14 @@ class CreatePostForm extends Component {
                                                 value={ this.state.content }
                                                 onChange={ this.handleChange }
                                                 textAreaStyle={ MDEditorStyles.textAreaStyle }
-                                                buttonStyle = { MDEditorStyles.buttonStyle }/>
+                                                buttonStyle={ MDEditorStyles.buttonStyle }/>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="field">
                                     <div className="field-body">
                                         <div className="field">
-                                            <button type="submit" className="button is-primary" style={{float:'right'}}>Save Post</button>
+                                            <button type="submit" className="button is-primary" id="submit" style={{float:'right'}}>Save Post</button>
                                         </div>
                                     </div>
                                 </div>
