@@ -23,5 +23,6 @@
     "enzyme": "^2.8.2",
     "react-addons-test-utils": "^15.5.1",
     "react-test-renderer": "^15.5.4"
-  }
+  },
+  "proxy": "http://localhost:9000"
 }

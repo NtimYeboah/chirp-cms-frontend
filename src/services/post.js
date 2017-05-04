@@ -5,13 +5,13 @@ import Api from './api';
 
 class Post {
     static save(data) {
-        return Api.save('http://localhost:9000/api/posts', data)
+        return Api.save('/api/posts', data)
             .then(res => res.data.post)
             .catch(err => err);
     }
 
     static getAll() {
-        return Api.getAll('http://localhost:9000/api/posts')
+        return Api.getAll('/api/posts')
             .then(res => {
                 if (res.status === 200) {
                     return res.data.posts
@@ -21,7 +21,7 @@ class Post {
     }
 
     static getOne(cuid) {
-        return Api.get(`http://localhost:9000/api/posts/${cuid}`)
+        return Api.get(`/api/posts/${cuid}`)
             .then(res => res.data.post)
             .catch(err => err)
     }
